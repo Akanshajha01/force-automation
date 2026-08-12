@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    background: #edf2f7;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.navbar-custom {
+    background: linear-gradient(90deg, #002147, #003d73);
+    padding: 18px;
+    color: white;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    height: 75px;
+    margin-right: 18px;
+}
+
+.main-title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.sub-title {
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.main-container {
+    padding: 30px;
+}
+
+.custom-card {
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+    margin-bottom: 25px;
+}
+
+.card-header {
+    background: #003d73 !important;
+    color: white !important;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 18px 18px 0 0 !important;
+}
+
+.form-control {
+    border-radius: 10px !important;
+}
+
+.Select-control {
+    border-radius: 10px !important;
+}
+
+.dash-table-container .dash-spreadsheet-container {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.generate-btn {
+    background: linear-gradient(90deg, #006400, #008b45);
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    font-size: 18px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.generate-btn:hover {
+    transform: scale(1.03);
+    background: linear-gradient(90deg, #008000, #00a651);
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    color: gray;
+    font-size: 14px;
+}
